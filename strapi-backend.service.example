@@ -1,0 +1,12 @@
+[Unit]
+Description=Strapi backend
+After=network.target
+
+[Service]
+User=ubuntu
+Restart=always
+WorkingDirectory=/home/ubuntu/blog/backend
+ExecStart=/usr/bin/yarn start
+
+[Install]
+WantedBy=multi-user.target

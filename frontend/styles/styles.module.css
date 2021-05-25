@@ -1,0 +1,96 @@
+.topheading {
+	margin-bottom: 100px;
+}
+
+.navbar {
+	color: #3f3d56;
+	font-family: 'Poppins', 'sans-serif';
+	margin: 0 5px;
+	padding-left: 5px;
+}
+
+.navbarBrand {
+	display: inline-block;
+	padding-top: .3125rem;
+	padding-bottom: .3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+}
+
+.justifyCenter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 960px;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.fonts {
+	color: #3f3d56;
+	font-family: 'Poppins', 'sans-serif';
+}
+
+.fontBold {
+	font-weight: 700;
+}
+
+.bgLight {
+	background-color: #f8f9fa;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: top;
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+	margin-top: -3px;
+}
+
+.backdrop {
+	position: relative;
+	z-index: 1;
+	border-radius: 6;
+}
+
+.backdrop img {
+	border-radius: inherit;
+}
+
+.backdrop::before {
+	position: absolute;
+	display: block;
+	content: '';
+	height: 100%;
+	width: 100%;
+	background-color: #22d9e6;
+	border-radius: inherit;
+	bottom: -7px;
+	right: -7px;
+	z-index: -1;
+}
+
+.backdrop.card {
+	z-index: initial;
+}
+
+.cardTitleTop {
+	margin-top: 8px;
+}
+
+.cardSides {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.lmImages {
+	max-width: 50%;
+	height: auto;
+	padding: 10px;
+}

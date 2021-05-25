@@ -1,0 +1,12 @@
+[Unit]
+Description=Strapi Next.JS frontend
+After=network.target
+
+[Service]
+User=ubuntu
+Restart=always
+WorkingDirectory=/home/ubuntu/blog/frontend
+ExecStart=/usr/bin/yarn start
+
+[Install]
+WantedBy=multi-user.target
